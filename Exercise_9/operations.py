@@ -4,11 +4,11 @@ var = input("Please enter a value: ")
 # print the value of 'var' in upper case using the .upper() method
 print("The value of var in upper case:", var.upper())
 # calculate the number of characters in 'var' without using a method
-# Initialize a counter to count the number of characters in var
+# Initialize a variable char_count to 0, to count the number of characters in var
 char_count = 0
-# it is a for loop,iterates through each character in the string var
+# This is a for loop that will iterate through each character in the string var.
 for char in var:
-    # Increment the counter for each character
+    # Increments the char_count by 1 for each character in the string.
     char_count += 1
 # Print the total number of characters in 'var'
 print("The number of characters in var:", char_count)

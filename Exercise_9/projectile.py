@@ -24,7 +24,7 @@ y = y0 + x * math.tan(theta) - (g * x**2) / (2 * (v0 * math.cos(theta))**2)
 
 # Print the result: The height of the projectile at the given horizontal distance (x)
 # converts y to string and concatenates and print the result as a string
-print("The height of the projectile is: " + ' ' + str(y))
+print("The height of the projectile is: " + str(y))
 # Format the result to 2 decimal places
 print("The height of the projectile is: {:.2f}".format(y))
 
